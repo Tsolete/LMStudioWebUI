@@ -9,7 +9,8 @@ This is a simple, browser-based chat interface for interacting with your LM Stud
 - Chat with your LM Studio model
 - View token usage and response time for each message
 - Mobile-friendly design
-
+- Translated in Spanish
+- 
 ## Setup Instructions
 
 ### For Desktop Users
