@@ -42,6 +42,17 @@
 	  color: var(--text-color);
 	  font-size: 0.95rem;
 	}
+	#server-port {
+      flex-grow: 1;
+      padding: 0.5rem 0.75rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      border: none;
+      border-radius: var(--border-radius);
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-size: 0.95rem;
+    }
 	/* Model selection dropdown */
 	#model-select {
 	  padding: 0.5rem;
@@ -299,7 +310,7 @@
 	@media (max-width: 480px) {
 	  .message { max-width: 90%; }
 	  #server-url-container { flex-direction: column; align-items: stretch; }
-	  #server-url, #connect-button, #model-select { width: 100%; margin-right: 0; margin-bottom: 0.5rem; }
+	  #server-port, #server-url, #connect-button, #model-select { width: 100%; margin-right: 0; margin-bottom: 0.5rem; }
 	  #chat-sidebar { display: none; }
 	}
 	@keyframes fadeIn {

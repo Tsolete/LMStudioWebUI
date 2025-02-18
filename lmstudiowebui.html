@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>LM Studio Chat</title>
   <link rel="stylesheet" type="text/css" href="estilos.css" />
-  <script src="cabecera.js"></script>
+  <script src="./libs/cabecera.js"></script>
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Font Awesome Icons -->
@@ -22,7 +22,8 @@
 <body>
   <div id="app">
     <div id="server-url-container">
-      <input type="text" id="server-url" placeholder="Enter LM Studio server address" />
+      <input type="text" id="server-url" placeholder="Introduce la dirección de LM Studio:" />
+      <input type="text" id="server-port" placeholder="Introduce el puerto de LM Studio:" value="1234" />
       <select id="model-select" disabled>
         <option value="">Selecciona modelo</option>
       </select>
@@ -54,6 +55,6 @@
   </div>
   <!-- Custom context menu for deleting chats -->
   <div id="context-menu">Eliminar Chat</div>
-  <script src="cuerpo.js"></script>
+  <script src="./libs/cuerpo.js"></script>
 </body>
 </html>
